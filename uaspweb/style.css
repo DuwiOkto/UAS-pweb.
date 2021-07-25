@@ -1,0 +1,199 @@
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+body{
+  background: -webkit-linear-gradient(bottom, #B0E0E6, #DDA0DD);
+  background-repeat: no-repeat;
+}
+
+label{
+  font-family: "Raleway", sans-serif;
+  font-size: 12pt;
+}
+p{
+  padding-left:50px;
+  width: 600px;
+  font-family: "Raleway", sans-serif;
+  font-size: 12pt;
+}
+
+.col1{
+  margin-top: 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 12pt;
+}
+.vm{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 140px;
+  margin-left: 440px;
+  margin-bottom: 30px;
+  width: 650px;
+}
+.vm2{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 260px;
+  margin-left: 440px;
+  margin-bottom: 50px;
+  width: 650px;
+}
+.tex{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 400px;  
+  margin-left: 440px;
+  margin-top: 90px;
+  margin-bottom: 100px;
+  width: 650px;
+}
+.card{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 340px;
+  margin-left: 440px;
+  margin-top: 30px;
+  margin-bottom: 190px;
+  width: 650px;
+}
+#card-content{
+  padding: 15px 48px;
+}
+#card-title{
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+#nama{
+  color: white;
+}
+#submit{
+  background: -webkit-linear-gradient(right, #B0E0E6, #DDA0DD);
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #AFEEEE;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  height: 41px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0,25s;
+  width: 153px;
+}
+
+.form-border {
+  background: -webkit-linear-gradient(right, #B0E0E6, #DDA0DD);
+  height: 1px;
+  width: 100%;
+}
+
+.from-content{
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+
+.underline-title{
+  background: -webkit-linear-gradient(right, #B0E0E6, #DDA0DD);
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+
+th{
+  text-align: center;
+  background-color: #B0C4DE;
+}
+table{
+  background-color: white;
+  border:1; 
+}
+
+
+
+.navbar-left{
+    color: white;
+    float:left;
+}
+.navbar-right{
+    float:right;
+    width:350px;
+    padding-right:20px;
+}
+.navbar{
+    width:auto;
+    height:70px;
+    background: #B0C4DE;
+    border-radius:2px;
+}
+ 
+.navbar ul{
+    float:left;
+    margin:0;
+    padding:0;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.navbar li a, .navbar li a:link {
+    float: left;
+    padding: 17px 12px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.navbar li a:hover{
+    background: #ddd;
+    color: #444;
+}
+.navbar li li a, .navbar li li a:link {
+    text-decoration: none;
+    font-size: 16px;
+    background: #444;
+    color: #fff;
+    width: 108px;
+    padding: 0px 0px 0 12px;
+    font-size: 12px;
+    line-height: 35px;
+}
+.navbar li li a:hover{
+    background: #ddd;
+    color: #444
+}
+.navbar li ul{
+    z-index:9999;
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:120px;
+    margin-top:50px;
+    border:1px solid #666;
+}
+.navbar li:hover ul,
+.navbar li li:hover ul,
+.navbar li li li:hover ul{left:auto;}
+.navbar li:hover{position:auto;}
+li a#dropdown{
+    width: 96%;
+    height: 50%;
+    background-color: #B0C4DE;
+    padding-left :5px;
+}
